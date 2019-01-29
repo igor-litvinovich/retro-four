@@ -11,20 +11,23 @@ var concatCss = require('gulp-concat-css');
 var paths = {
     src: 'src/**/*',
     srcHTML: 'src/**/*.html',
-    srcCSS: 'src/**/*.css',
+    srcCSS: 'src/css/main.css',
     srcJS: 'src/**/*.js',
+    srcAssets: 'src/assets/**/*.*',
 
     tmp: 'tmp',
     tmpIndex: 'tmp/index.html',
     tmpCSS: 'tmp/**/*.css',
     tmpJS: 'tmp/**/*.js',
-    tmpCssVendors: 'tmp/css/vendors/',
+    tmpCssVendors: 'tmp/css/',
+    tmpAssets: 'tmp/assets/',
 
     dist: 'dist',
     distIndex: 'dist/index.html',
     distCSS: 'dist/**/*.css',
     distJS: 'dist/**/*.js',
-    distCssVendors: 'dist/css/vendors/',
+    distCssVendors: 'dist/css/',
+    distAssets: 'dist/assets/',
 
     cssVendors: 'src/css/vendors/*.css'
 };
@@ -42,15 +45,19 @@ gulp.task('cssVendors', function () {
 });
 
 gulp.task('css', function () {
-    return gulp.src([paths.srcCSS, '!' + paths.cssVendors])
-        .pipe(concat('css/style.css'))
+    return gulp.src(paths.srcCSS)
+        .pipe(concatCss('css/style.css'))
         .pipe(gulp.dest(paths.tmp));
 });
 gulp.task('js', function () {
     return gulp.src(paths.srcJS).pipe(gulp.dest(paths.tmp));
 });
 
-gulp.task('copy', ['html', 'css', 'cssVendors', 'js']);
+gulp.task('assets', function () {
+    return gulp.src(paths.srcAssets).pipe(gulp.dest(paths.tmpAssets));
+});
+
+gulp.task('copy', ['html', 'css', 'js', 'assets']);
 
 gulp.task('inject', ['copy'], function () {
     var css = gulp.src(paths.tmpCSS);
@@ -64,7 +71,7 @@ gulp.task('inject', ['copy'], function () {
 gulp.task('serve', ['inject'], function () {
     return gulp.src(paths.tmp)
         .pipe(webserver({
-            port: 3000,
+            port: 8000,
             livereload: true
         }));
 });
@@ -87,9 +94,15 @@ gulp.task('html:dist', function () {
         .pipe(htmlclean())
         .pipe(gulp.dest(paths.dist));
 });
+
+
+gulp.task('assets:dist', function () {
+    return gulp.src(paths.srcAssets).pipe(gulp.dest(paths.tmpAssets));
+});
+
 gulp.task('css:dist', function () {
-    return gulp.src([paths.srcCSS, '!' + paths.cssVendors])
-        .pipe(concat('css/style.min.css'))
+    return gulp.src(paths.srcCSS)
+        .pipe(concatCss('css/style.min.css'))
         .pipe(cleanCSS())
         .pipe(gulp.dest(paths.dist));
 });
@@ -105,7 +118,7 @@ gulp.task('js:dist', function () {
         .pipe(uglify())
         .pipe(gulp.dest(paths.dist));
 });
-gulp.task('copy:dist', ['html:dist', 'cssVendors:dist', 'css:dist', 'js:dist']);
+gulp.task('copy:dist', ['html:dist', 'css:dist', 'js:dist', 'assets:dist']);
 gulp.task('inject:dist', ['copy:dist'], function () {
     var css = gulp.src(paths.distCSS);
     var js = gulp.src(paths.distJS);

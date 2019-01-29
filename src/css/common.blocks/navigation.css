@@ -1,0 +1,8 @@
+.navigation {
+    display: inherit;
+    align-items: inherit;
+}
+
+.navigation__item {
+    cursor: pointer;
+}
