@@ -1,0 +1,33 @@
+.header {
+    background: url("../assets/images/background-1.png") repeat;
+    padding-bottom: 10px;
+}
+
+.header::after {
+    content: " ";
+    border-top: 1px dashed rgba(0, 0, 0, 0.3);
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
+    width: 100%;
+    display: block;
+}
+
+.header__logo {
+    max-height: 100px;
+}
+
+.header__navigation {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: "Bazar", sans-serif;
+    font-size: 30px;
+    text-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+
+    overflow: visible;
+}
+
+.header__navigation--collapsed {
+    display: block;
+    text-align: center;
+}

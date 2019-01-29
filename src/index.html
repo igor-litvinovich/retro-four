@@ -10,18 +10,30 @@
 </head>
 <body>
 <header class="header ">
-    <nav class="header__navigation">
+    <nav class="header__navigation hidden-tablet hidden-phone ">
         <ul class="navigation grid">
             <span class="col-1-12"></span>
             <li class="navigation__item col-2-12">ABOUT ME</li>
             <li class="navigation__item col-2-12">PORTFOLIO</li>
-            <li class="navigation__item col-2-12">
+            <li class="navigation__item col-2-12 header__logo">
                 <img src="assets/logo.png" alt="" class="logo">
             </li>
             <li class="navigation__item col-2-12">MY BLOG</li>
             <li class="navigation__item  col-2-12">CONTACT ME</li>
         </ul>
     </nav>
+    <nav class="header__navigation header__navigation--collapsed hidden-desktop">
+        <ul class="navigation">
+            <li class="navigation__item">ABOUT ME</li>
+            <li class="navigation__item">PORTFOLIO</li>
+            <li class="navigation__item">
+                <img src="assets/logo.png" alt="" class="logo">
+            </li>
+            <li class="navigation__item ">MY BLOG</li>
+            <li class="navigation__item  ">CONTACT ME</li>
+        </ul>
+    </nav>
+    <span class="dash-bottom"></span>
 </header>
 <section>
     <ul class="navigation ">

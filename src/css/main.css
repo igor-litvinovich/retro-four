@@ -15,7 +15,8 @@
 
 @import "vendors/reset.css";
 @import "vendors/simplegrid.css";
+@import "common/visibility.css";
 
-@import "common.blocks/header.css";
-@import "common.blocks/logo.css";
-@import "common.blocks/navigation.css";
+@import "blocks/header.css";
+@import "blocks/logo.css";
+@import "blocks/navigation.css";
