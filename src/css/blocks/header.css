@@ -13,6 +13,7 @@
 
 .header__logo {
     max-height: 100px;
+    z-index: 2;
 }
 
 .header__navigation {

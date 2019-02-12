@@ -135,3 +135,4 @@ gulp.task('build', ['clean', 'inject:dist']);
 gulp.task('clean', function () {
     del([paths.tmp, paths.dist]);
 });
+
