@@ -11,7 +11,14 @@
     font-weight: normal;
     font-style: normal;
 }
-
+@font-face {font-family: "SeasideResortNFW00-Regular";
+    src: url("//db.onlinewebfonts.com/t/7c6e7c99e69d84d0d2b6189c5e9edb3f.eot");
+    src: url("//db.onlinewebfonts.com/t/7c6e7c99e69d84d0d2b6189c5e9edb3f.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/7c6e7c99e69d84d0d2b6189c5e9edb3f.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/7c6e7c99e69d84d0d2b6189c5e9edb3f.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/7c6e7c99e69d84d0d2b6189c5e9edb3f.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/7c6e7c99e69d84d0d2b6189c5e9edb3f.svg#SeasideResortNFW00-Regular") format("svg");
+}
 
 @import "vendors/reset.css";
 @import "vendors/simplegrid.css";
@@ -25,3 +32,10 @@
 @import "blocks/home-page.css";
 @import "blocks/about-me-page.css";
 @import "blocks/ribbon.css";
+@import "blocks/page-title.css";
+
+
+/*TODO fix or consider improvements of font-family application for body*/
+body {
+    font-family: "Bazar", sans-serif;
+}

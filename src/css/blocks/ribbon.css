@@ -1,10 +1,8 @@
 .ribbon {
-    font-size: 16px;
-
     position: relative;
     background: rgb(255, 241, 206);;
     text-align: center;
-    margin: 2em auto 3em;
+    line-height: 2;
 }
 
 .ribbon::before, .ribbon::after {
@@ -40,6 +38,7 @@
     width: 100%;
     display: block;
 }
+
 
 .ribbon__content::before, .ribbon__content::after {
     content: "";

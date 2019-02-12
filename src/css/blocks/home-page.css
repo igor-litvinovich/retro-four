@@ -1,3 +1,41 @@
 .home-page {
     background: url("../assets/images/background-1.png") repeat;
 }
+
+.home-page__title {
+    width: 50%;
+}
+
+.home-page__subtitle {
+    width: 30%;
+    text-transform: uppercase;
+
+    font-size: 20px;
+
+    color: #4b4e4c;
+
+    margin-top: 25px;
+}
+
+
+@media (max-width: 767px) {
+    .home-page__title {
+        width: 60%;
+    }
+    .home-page__subtitle {
+        width: 70%;
+    }
+
+    .home-page__subtitle {
+        font-size: 14px;
+    }
+}
+/*TODO consider improvement: not to use max-width and min-width at the same time.*/
+
+@media (min-width: 1200px) {
+    .home-page__subtitle {
+        width: 18%;
+    }
+
+}
+

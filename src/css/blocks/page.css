@@ -5,6 +5,7 @@
     position: relative;
     z-index: 1;
 }
+
 .page::before {
     content: " ";
     border-top: 1px dashed rgba(0, 0, 0, 0.3);
@@ -19,4 +20,17 @@
     width: 100%;
     display: block;
     bottom: 0;
+}
+
+.page__title {
+    text-align: center;
+}
+
+.page__header {
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
