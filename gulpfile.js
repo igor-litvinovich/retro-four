@@ -97,7 +97,7 @@ gulp.task('html:dist', function () {
 
 
 gulp.task('assets:dist', function () {
-    return gulp.src(paths.srcAssets).pipe(gulp.dest(paths.tmpAssets));
+    return gulp.src(paths.srcAssets).pipe(gulp.dest(paths.distAssets));
 });
 
 gulp.task('css:dist', function () {
@@ -118,6 +118,8 @@ gulp.task('js:dist', function () {
         .pipe(uglify())
         .pipe(gulp.dest(paths.dist));
 });
+
+
 gulp.task('copy:dist', ['html:dist', 'css:dist', 'js:dist', 'assets:dist']);
 gulp.task('inject:dist', ['copy:dist'], function () {
     var css = gulp.src(paths.distCSS);
