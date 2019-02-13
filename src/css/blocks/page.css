@@ -6,6 +6,12 @@
     z-index: 1;
 }
 
+.page__wrapper {
+    width:66%;
+
+    margin-left: 16.6%;
+}
+
 .page::before {
     content: " ";
     border-top: 1px dashed rgba(0, 0, 0, 0.3);

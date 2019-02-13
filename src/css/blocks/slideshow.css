@@ -1,0 +1,53 @@
+.site {
+    max-width: 500px;
+}
+
+.slider {
+    position:relative;
+    overflow:hidden;
+
+    border-radius:3px;
+}
+
+.slider__image {
+    max-width: 100%;
+}
+
+.slider__item {
+    border: 10px solid;
+    border-color: #f6edd8;
+}
+
+.slider__item-description {
+    margin-top: 10px;
+    width:100%;
+    height:100%;
+    background-color: #f6edd8;
+    text-align:center;
+}
+
+.slider__prev,
+.slider__next {
+    background-color: #f6edd8;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.8rem;
+    position: absolute;
+    width: 2.78em;
+    height: 2.78em;
+    top: 50%;
+    margin-top: -1.95em;
+    padding: 0;
+}
+
+.slider__prev {
+    left: -3.7rem;
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.slider__next {
+    text-align: left;
+    padding-left: 1rem;
+    right: -3.7rem;
+}
