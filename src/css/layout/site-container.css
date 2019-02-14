@@ -1,0 +1,6 @@
+.site-container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 66%;
+}
