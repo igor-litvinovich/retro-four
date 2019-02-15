@@ -19,8 +19,9 @@
 .header__navigation {
     display: flex;
     align-items: center;
+    justify-content: center;
+
     color: white;
-    font-family: "Bazar", sans-serif;
     font-size: 30px;
     text-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
     text-transform: uppercase;

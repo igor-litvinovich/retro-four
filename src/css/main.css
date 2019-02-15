@@ -22,7 +22,9 @@
 
 @import "vendors/reset.css";
 @import "vendors/simplegrid.css";
+@import "vendors/icomoon.css";
 @import "common/visibility.css";
+
 @import "layout/site-container.css";
 
 @import "blocks/header.css";

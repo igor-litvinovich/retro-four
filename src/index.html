@@ -11,16 +11,14 @@
 <body>
 <header class="header ">
     <nav class="header__navigation hidden-tablet hidden-phone ">
-        <ul class="navigation grid">
-            <!--FIXME remove span-->
-            <span class="col-1-12"></span>
-            <li class="navigation__item col-2-12">ABOUT ME</li>
-            <li class="navigation__item col-2-12">PORTFOLIO</li>
-            <li class="navigation__item header__logo col-2-12">
+        <ul class="navigation ">
+            <li class="navigation__item">ABOUT ME</li>
+            <li class="navigation__item">PORTFOLIO</li>
+            <li class="navigation__item header__logo">
                 <img src="assets/logo.png" alt="" class="logo">
             </li>
-            <li class="navigation__item col-2-12">MY BLOG</li>
-            <li class="navigation__item  col-2-12">CONTACT ME</li>
+            <li class="navigation__item ">MY BLOG</li>
+            <li class="navigation__item  ">CONTACT ME</li>
         </ul>
     </nav>
     <nav class="header__navigation header__navigation--collapsed hidden-desktop">
@@ -38,7 +36,7 @@
 </header>
 <main>
     <section class="page home-page">
-        <div class="page__wrapper site-container">
+        <div class="page__wrapper">
             <header class="page__header">
                 <h1 class="page__title">
                     <img src="assets/images/retro.png" class="home-page__title">
@@ -52,7 +50,9 @@
             <section class="page__content">
                 <div class="slider">
                     <div class="slider__wrapper">
-                        <div class="slider__prev"></div>
+                        <div class="slider__prev">
+                            <span class="icon-arrow-left slider__left-arrow"> </span>
+                        </div>
                         <div class="slider__item">
                             <img src="https://searchengineland.com/figz/wp-content/seloads/2015/12/google-amp-fast-speed-travel-ss-1920.jpg"
                                  alt="" class="slider__image">
@@ -61,7 +61,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="slider__next"></div>
+                    <div class="slider__next">
+                        <span class="icon-arrow-right slider__right-arrow"> </span>
+                    </div>
                 </div>
             </section>
         </div>
