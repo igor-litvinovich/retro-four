@@ -17,9 +17,9 @@
 }
 
 .header__navigation {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    width: 66%;
+    margin-left: 16.6%;
 
     color: white;
     font-size: 30px;
@@ -27,6 +27,19 @@
     text-transform: uppercase;
 
     overflow: visible;
+}
+
+@media (max-width: 1200px) {
+    .header__navigation {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+.header__navigation-layout {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .header__navigation--collapsed {
