@@ -3,10 +3,16 @@
 }
 
 .slider {
-    position:relative;
-    overflow:hidden;
+    position: relative;
+    overflow: hidden;
 
-    border-radius:3px;
+    border-radius: 3px;
+}
+.slider__wrapper {
+    border: 10px solid;
+
+    border-color: #f6edd8;
+    background-color: #f6edd8;
 }
 
 .slider__image {
@@ -14,16 +20,15 @@
 }
 
 .slider__item {
-    border: 10px solid;
-    border-color: #f6edd8;
 }
 
 .slider__item-description {
+    font-family: "Bazar", sans-serif;
     margin-top: 10px;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     background-color: #f6edd8;
-    text-align:center;
+    text-align: center;
 }
 
 .slider__prev,
@@ -58,4 +63,9 @@
 
 .slider__right-arrow {
     margin-right: 15px;
+}
+
+.slider__prev--disabled,
+.slider__next--disabled {
+    color: #79756e;
 }

@@ -20,6 +20,11 @@
     border-left-color: transparent;
 }
 
+
+.ribbon::before::before {
+    content: "----";
+}
+
 .ribbon::after {
     right: -2em;
     border-left-width: 1.5em;

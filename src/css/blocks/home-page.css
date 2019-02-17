@@ -7,16 +7,17 @@
 }
 
 .home-page__subtitle {
-    width: 70%;
+    width: 40%;
+    margin: 25px auto;
+
     text-transform: uppercase;
-
     font-size: 20px;
-
     color: #4b4e4c;
-
-    margin-top: 25px;
 }
 
+.home-page__subtitle-ribbon::before {
+    content: "& bull";
+}
 
 @media (max-width: 767px) {
     .home-page__title {

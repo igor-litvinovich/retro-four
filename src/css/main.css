@@ -11,7 +11,9 @@
     font-weight: normal;
     font-style: normal;
 }
-@font-face {font-family: "SeasideResortNFW00-Regular";
+
+@font-face {
+    font-family: "SeasideResortNFW00-Regular";
     src: url("//db.onlinewebfonts.com/t/7c6e7c99e69d84d0d2b6189c5e9edb3f.eot");
     src: url("//db.onlinewebfonts.com/t/7c6e7c99e69d84d0d2b6189c5e9edb3f.eot?#iefix") format("embedded-opentype"),
     url("//db.onlinewebfonts.com/t/7c6e7c99e69d84d0d2b6189c5e9edb3f.woff2") format("woff2"),
