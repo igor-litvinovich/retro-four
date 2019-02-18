@@ -15,8 +15,29 @@
     color: #4b4e4c;
 }
 
+.home-page__subtitle-ribbon {
+    position: relative;
+}
+
+.home-page__subtitle-ribbon::before, .home-page__subtitle-ribbon::after {
+    content: "\2022 \2001 \2022 \2001 \2022 \2001 \2022 \2001";
+    position: absolute;
+    z-index: 1;
+
+    color: #fff1ce;
+    text-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
+}
+
 .home-page__subtitle-ribbon::before {
-    content: "& bull";
+
+    left: -6.5em;
+    top: 1.8em;
+}
+
+.home-page__subtitle-ribbon::after {
+
+    right: -6.5em;
+    top: 1.8em;
 }
 
 @media (max-width: 767px) {
