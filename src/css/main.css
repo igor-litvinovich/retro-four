@@ -34,8 +34,8 @@
 @import "blocks/navigation.css";
 
 @import "blocks/page.css";
-@import "blocks/home-page.css";
-@import "blocks/about-me-page.css";
+@import "pages/home-page.css";
+@import "pages/about-me-page.css";
 @import "blocks/ribbon.css";
 @import "blocks/page-title.css";
 @import "blocks/slideshow.css";

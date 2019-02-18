@@ -35,7 +35,6 @@
 }
 
 .home-page__subtitle-ribbon::after {
-
     right: -6.5em;
     top: 1.8em;
 }
@@ -44,6 +43,7 @@
     .home-page__title {
         width: 60%;
     }
+
     .home-page__subtitle {
         width: 90%;
     }
@@ -51,7 +51,12 @@
     .home-page__subtitle {
         font-size: 14px;
     }
+
+    .home-page__subtitle-ribbon::before, .home-page__subtitle-ribbon::after {
+        display: none;
+    }
 }
+
 /*TODO consider improvement: not to use max-width and min-width at the same time.*/
 
 @media (min-width: 1200px) {
@@ -60,3 +65,14 @@
     }
 }
 
+.home-page__greeting {
+    color: #f7ebd8;
+    font-size: 30px;
+    margin: 35px 0;
+}
+
+.home-page__greeting--small {
+    font-size: 25px;
+
+    margin-top: 10px;
+}

@@ -11,8 +11,8 @@
 .slider__wrapper {
     border: 10px solid;
 
-    border-color: #f6edd8;
-    background-color: #f6edd8;
+    border-color: #fbfaf6;
+    background-color: #fbfaf6;
 }
 
 .slider__image {
@@ -23,17 +23,22 @@
 }
 
 .slider__item-description {
+    display: block;
+
     font-family: "Bazar", sans-serif;
+    font-size: 20px;
+
     margin-top: 10px;
     width: 100%;
     height: 100%;
-    background-color: #f6edd8;
     text-align: center;
+
+    background-color: #fbfaf6;
 }
 
 .slider__prev,
 .slider__next {
-    background-color: #f6edd8;
+    background-color: #fbfaf6;
     position: absolute;
     width: 45px;
     height: 45px;
@@ -43,6 +48,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    cursor: pointer;
 }
 
 .slider__prev {
