@@ -20,11 +20,6 @@
     border-left-color: transparent;
 }
 
-
-.ribbon::before::before {
-    content: "----";
-}
-
 .ribbon::after {
     right: -2em;
     border-left-width: 1.5em;
@@ -62,4 +57,14 @@
 .ribbon__content::after {
     right: 0;
     border-width: 1em 1em 0 0;
+}
+
+@media (max-width: 480px) {
+    .ribbon::before, .ribbon::after {
+        display: none;
+    }
+
+    .ribbon__content::before, .ribbon__content::after {
+       display: none;
+    }
 }

@@ -1,3 +1,47 @@
 .about-me-page {
-    background-color: aquamarine;
+    background: url("../assets/images/background-2.png") repeat;
+}
+
+.about-me-page__header {
+    color: #3a3a3a;
+}
+
+.about-me-page__header-subtitle {
+    font-family: "oswald_regularregular", serif;
+    font-weight: bold;
+}
+
+.about-me-page__content {
+    display: grid;
+    column-gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    margin-bottom: 50px;
+}
+
+.about-me-page__article {
+    flex: 2;
+}
+
+.about-me-page__article-icon {
+    color: white;
+}
+
+
+@media (max-width: 1200px) {
+    .about-me-page__content {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-me-page__content {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-me-page__content {
+        grid-template-columns: 1fr;
+    }
 }
