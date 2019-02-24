@@ -45,6 +45,11 @@
     margin-bottom: 40px;
 }
 
+.page__header-subtitle {
+    font-family: "oswald_regularregular", serif;
+    font-weight: bold;
+}
+
 .page__footer {
     margin: 10px auto;
     width: 100%;

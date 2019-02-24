@@ -65,14 +65,19 @@
 @import "blocks/navigation.css";
 
 @import "blocks/page.css";
-@import "pages/home-page.css";
-@import "pages/about-me-page.css";
 @import "blocks/ribbon.css";
 @import "blocks/page-title.css";
 @import "blocks/slideshow.css";
 @import "blocks/separator.css";
 @import "blocks/outlined-circle.css";
 @import "blocks/article.css";
+@import "blocks/tag.css";
+@import "blocks/portfolio-record.css";
+
+
+@import "pages/home-page.css";
+@import "pages/about-me-page.css";
+@import "pages/portfolio-page.css";
 
 
 /*TODO fix or consider improvements of font-family application for body*/

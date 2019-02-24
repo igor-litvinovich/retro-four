@@ -18,3 +18,14 @@
 .separator:after {
     right: -80px;
 }
+
+.separator--single {
+}
+
+.separator--single:before {
+    display: none;
+}
+
+.separator--single:after {
+    left: calc(50% - 32px);
+}

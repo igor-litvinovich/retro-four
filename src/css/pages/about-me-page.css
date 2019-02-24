@@ -1,14 +1,10 @@
 .about-me-page {
     background: url("../assets/images/background-2.png") repeat;
+
 }
 
 .about-me-page__header {
     color: #3a3a3a;
-}
-
-.about-me-page__header-subtitle {
-    font-family: "oswald_regularregular", serif;
-    font-weight: bold;
 }
 
 .about-me-page__content {

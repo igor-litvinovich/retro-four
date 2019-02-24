@@ -1,0 +1,56 @@
+.portfolio-page {
+    background: url("../assets/images/background-2.png") repeat;
+    color: #3a3a3a;
+}
+
+.portfolio-page__header {
+}
+
+.portfolio-page__filter {
+    display: flex;
+    flex-flow: row wrap;
+
+    font-family: "robotoslab-bold", sans-serif;
+}
+
+.portfolio-page__filter-title {
+    margin-right: 25px;
+    line-height: initial;
+
+    font-family: "robotoslab-regular", sans-serif;
+}
+
+.portfolio-page__filter-item {
+    margin-right: 30px;
+    margin-bottom: 10px;
+
+    font-size: 14px;
+
+    cursor: pointer;
+}
+
+.portfolio-page__articles {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.portfolio-page__articles-item {
+    margin-right:10px;
+    margin-bottom:10px;
+}
+
+.portfolio-page__separator {
+   margin-bottom: 30px;
+   margin-top: 15px;
+}
+
+.portfolio-page__bottom {
+    text-align: center;
+    font-family: "oswald_bold", serif;
+    font-size: 14px;
+
+    font-weight: bold;
+
+    margin-bottom: 40px;
+}
