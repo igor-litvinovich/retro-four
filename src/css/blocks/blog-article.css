@@ -1,0 +1,11 @@
+.blog-article {
+
+}
+
+.blog-article__image {
+    height: 222px;
+    width: 293px;
+    background-color: #e3dfd7;
+
+    border: 4px solid #fbfaf6;
+}
