@@ -2,3 +2,8 @@
     background: url("../assets/images/background-1.png") repeat;
     color: #3a3a3a;
 }
+
+.blog-page__articles {
+    display: grid;
+    row-gap: 25px;
+}

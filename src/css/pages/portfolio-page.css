@@ -39,18 +39,3 @@
     margin-right:10px;
     margin-bottom:10px;
 }
-
-.portfolio-page__separator {
-   margin-bottom: 30px;
-   margin-top: 15px;
-}
-
-.portfolio-page__bottom {
-    text-align: center;
-    font-family: "oswald_bold", serif;
-    font-size: 14px;
-
-    font-weight: bold;
-
-    margin-bottom: 40px;
-}
