@@ -75,12 +75,14 @@
 @import "blocks/portfolio-record.css";
 @import "blocks/blog-article.css";
 @import "blocks/line-separator.css";
+@import "blocks/form.css";
 
 
 @import "pages/home-page.css";
 @import "pages/about-me-page.css";
 @import "pages/portfolio-page.css";
 @import "pages/blog-page.css";
+@import "pages/contact-page.css";
 
 
 /*TODO fix or consider improvements of font-family application for body*/
