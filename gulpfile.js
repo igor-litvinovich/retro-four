@@ -115,7 +115,6 @@ gulp.task('cssVendors:dist', function () {
 gulp.task('js:dist', function () {
     return gulp.src(paths.srcJS)
         .pipe(concat('script.min.js'))
-        .pipe(uglify())
         .pipe(gulp.dest(paths.dist));
 });
 
