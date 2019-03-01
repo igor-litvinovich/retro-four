@@ -57,7 +57,6 @@
     }
 }
 
-/*TODO consider improvement: not to use max-width and min-width at the same time.*/
 
 @media (min-width: 1200px) {
     .home-page__subtitle {
