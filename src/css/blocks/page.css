@@ -47,12 +47,13 @@
 
 .page__header-subtitle {
     font-family: "oswald_regularregular", serif;
-    font-weight: bold;
+    font-weight: 100;
 }
 
 .page__footer {
-    margin: 10px auto;
+    margin: 40px auto;
     width: 100%;
+
 }
 
 .page__separator {

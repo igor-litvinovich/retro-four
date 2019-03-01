@@ -8,8 +8,6 @@
     url('../assets/fonts/Bazar/Bazar-webfont.woff') format('woff'),
     url('../assets/fonts/Bazar/Bazar-webfont.ttf') format('truetype'),
     url('../assets/fonts/Bazar/Bazar-webfont.svg#bazarmedium') format('svg');
-    font-weight: normal;
-    font-style: normal;
 }
 
 @font-face {
