@@ -69,6 +69,13 @@
 }
 
 
+@media (max-width: 1600px) {
+  .page__wrapper {
+    margin-left: 20%;
+    max-width: 60%;
+  }
+}
+
 @media (max-width: 768px) {
   .page__wrapper {
     margin-left: 10%;
@@ -83,12 +90,5 @@
   .page__wrapper {
     margin-left: 4%;
     max-width: 90%;
-  }
-}
-
-@media (max-width: 1600px) {
-  .page__wrapper {
-    margin-left: 20%;
-    max-width: 60%;
   }
 }
