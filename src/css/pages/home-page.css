@@ -3,7 +3,7 @@
 }
 
 .home-page__title {
-    width: 50%;
+    width: 41.6%;
 }
 
 .home-page__subtitle {
@@ -46,11 +46,9 @@
 
     .home-page__subtitle {
         width: 90%;
-    }
-
-    .home-page__subtitle {
         font-size: 14px;
     }
+
 
     .home-page__subtitle-ribbon::before, .home-page__subtitle-ribbon::after {
         display: none;
@@ -60,7 +58,7 @@
 
 @media (min-width: 1200px) {
     .home-page__subtitle {
-        width: 60%;
+        width: 40%;
     }
 }
 

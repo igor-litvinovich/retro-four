@@ -32,10 +32,19 @@
 .portfolio-page__articles {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
 }
 
 .portfolio-page__articles-item {
     margin-right:10px;
     margin-bottom:10px;
+}
+
+.portfolio-page__articles-item:last-child {
+    justify-self: flex-start;
+}
+
+@media (max-width: 768px) {
+    .portfolio-page__articles {
+        justify-content: center;
+    }
 }

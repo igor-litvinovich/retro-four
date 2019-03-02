@@ -10,7 +10,7 @@
 .about-me-page__content {
     display: grid;
     column-gap: 40px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: auto auto auto auto;
 
     margin-bottom: 50px;
 }
@@ -26,18 +26,18 @@
 
 @media (max-width: 1200px) {
     .about-me-page__content {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: auto auto auto;
     }
 }
 
 @media (max-width: 768px) {
     .about-me-page__content {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: auto auto;
     }
 }
 
 @media (max-width: 480px) {
     .about-me-page__content {
-        grid-template-columns: 1fr;
+        grid-template-columns: auto;
     }
 }

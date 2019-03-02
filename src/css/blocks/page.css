@@ -8,8 +8,8 @@
 
 .page__wrapper {
     text-align: center;
-    max-width: 66%;
-    margin-left: 16.6%;
+    max-width: 50%;
+    margin-left: 25%;
 }
 
 .page::before {
@@ -85,5 +85,12 @@
     .page__wrapper {
         max-width: 90%;
         margin-left: 4%;
+    }
+}
+
+@media (max-width: 1600px) {
+    .page__wrapper {
+        max-width: 60%;
+        margin-left: 20%;
     }
 }
