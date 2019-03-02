@@ -17,6 +17,7 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
+    "csscomb": "^4.2.0",
     "csslint": "^1.0.5",
     "del": "^2.2.2",
     "gulp": "^3.9.1",

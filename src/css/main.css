@@ -1,62 +1,59 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'Bazar';
-    src: url('../assets/fonts/Bazar/Bazar-webfont.eot');
-    src: url('../assets/fonts/Bazar/Bazar-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../assets/fonts/Bazar/Bazar-webfont.woff2') format('woff2'),
-    url('../assets/fonts/Bazar/Bazar-webfont.woff') format('woff'),
-    url('../assets/fonts/Bazar/Bazar-webfont.ttf') format('truetype'),
-    url('../assets/fonts/Bazar/Bazar-webfont.svg#bazarmedium') format('svg');
+  font-family: "Bazar";
+  src: url("../assets/fonts/Bazar/Bazar-webfont.eot");
+  src: url("../assets/fonts/Bazar/Bazar-webfont.eot?#iefix") format("embedded-opentype"),
+  url("../assets/fonts/Bazar/Bazar-webfont.woff2") format("woff2"),
+  url("../assets/fonts/Bazar/Bazar-webfont.woff") format("woff"),
+  url("../assets/fonts/Bazar/Bazar-webfont.ttf") format("truetype"),
+  url("../assets/fonts/Bazar/Bazar-webfont.svg#bazarmedium") format("svg");
 }
 
 @font-face {
-    font-family: "SeasideResortNFW00-Regular";
-    src: url("//db.onlinewebfonts.com/t/7c6e7c99e69d84d0d2b6189c5e9edb3f.eot");
-    src: url("//db.onlinewebfonts.com/t/7c6e7c99e69d84d0d2b6189c5e9edb3f.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/7c6e7c99e69d84d0d2b6189c5e9edb3f.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/7c6e7c99e69d84d0d2b6189c5e9edb3f.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/7c6e7c99e69d84d0d2b6189c5e9edb3f.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/7c6e7c99e69d84d0d2b6189c5e9edb3f.svg#SeasideResortNFW00-Regular") format("svg");
+  font-family: "SeasideResortNFW00-Regular";
+  src: url("//db.onlinewebfonts.com/t/7c6e7c99e69d84d0d2b6189c5e9edb3f.eot");
+  src: url("//db.onlinewebfonts.com/t/7c6e7c99e69d84d0d2b6189c5e9edb3f.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/7c6e7c99e69d84d0d2b6189c5e9edb3f.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/7c6e7c99e69d84d0d2b6189c5e9edb3f.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/7c6e7c99e69d84d0d2b6189c5e9edb3f.ttf") format("truetype"),
+  url("//db.onlinewebfonts.com/t/7c6e7c99e69d84d0d2b6189c5e9edb3f.svg#SeasideResortNFW00-Regular") format("svg");
 }
 
 @font-face {
-    font-family: "oswald_regularregular";
-    src: url('../assets/fonts/Oswald/Oswald-Regular-webfont.eot?1435407075') format('embedded-opentype'),
-    url('../assets/fonts/Oswald/Oswald-Regular-webfont.woff2?1435407075') format('woff2'),
-    url('../assets/fonts/Oswald/Oswald-Regular-webfont.woff?1435407075') format('woff'),
-    url('../assets/fonts/Oswald/Oswald-Regular-webfont.ttf?1435407075') format('truetype'),
-    url('../assets/fonts/Oswald/Oswald-Regular-webfont.svg?1435407075') format('svg');
+  font-family: "oswald_regularregular";
+  src: url("../assets/fonts/Oswald/Oswald-Regular-webfont.eot?1435407075") format("embedded-opentype"),
+  url("../assets/fonts/Oswald/Oswald-Regular-webfont.woff2?1435407075") format("woff2"),
+  url("../assets/fonts/Oswald/Oswald-Regular-webfont.woff?1435407075") format("woff"),
+  url("../assets/fonts/Oswald/Oswald-Regular-webfont.ttf?1435407075") format("truetype"),
+  url("../assets/fonts/Oswald/Oswald-Regular-webfont.svg?1435407075") format("svg");
 }
 @font-face {
-    font-family: "oswaldbold";
-    src: url('../assets/fonts/Oswald/Oswald-Bold-webfont.eot?1435407075') format('embedded-opentype'),
-    url('../assets/fonts/Oswald/Oswald-Bold-webfont.woff2?1435407075') format('woff2'),
-    url('../assets/fonts/Oswald/Oswald-Bold-webfont.woff?1435407075') format('woff'),
-    url('../assets/fonts/Oswald/Oswald-Bold-webfont.ttf?1435407075') format('truetype'),
-    url('../assets/fonts/Oswald/Oswald-Bold-webfont.svg?1435407075') format('svg');
+  font-family: "oswaldbold";
+  src: url("../assets/fonts/Oswald/Oswald-Bold-webfont.eot?1435407075") format("embedded-opentype"),
+  url("../assets/fonts/Oswald/Oswald-Bold-webfont.woff2?1435407075") format("woff2"),
+  url("../assets/fonts/Oswald/Oswald-Bold-webfont.woff?1435407075") format("woff"),
+  url("../assets/fonts/Oswald/Oswald-Bold-webfont.ttf?1435407075") format("truetype"),
+  url("../assets/fonts/Oswald/Oswald-Bold-webfont.svg?1435407075") format("svg");
 }
 @font-face {
-    font-family: "robotoslab-regular";
-    src: url('../assets/fonts/Roboto/RobotoSlab-Regular-webfont.eot?1435407075') format('embedded-opentype'),
-    url('../assets/fonts/Roboto/RobotoSlab-Regular-webfont.woff?1435407075') format('woff'),
-    url('../assets/fonts/Roboto/RobotoSlab-Regular-webfont.ttf?1435407075') format('truetype'),
-    url('../assets/fonts/Roboto/RobotoSlab-Regular-webfont.svg?1435407075') format('svg');
+  font-family: "robotoslab-regular";
+  src: url("../assets/fonts/Roboto/RobotoSlab-Regular-webfont.eot?1435407075") format("embedded-opentype"),
+  url("../assets/fonts/Roboto/RobotoSlab-Regular-webfont.woff?1435407075") format("woff"),
+  url("../assets/fonts/Roboto/RobotoSlab-Regular-webfont.ttf?1435407075") format("truetype"),
+  url("../assets/fonts/Roboto/RobotoSlab-Regular-webfont.svg?1435407075") format("svg");
 }
 @font-face {
-    font-family: "robotoslab-bold";
-    src: url('../assets/fonts/Roboto/RobotoSlab-Bold-webfont.eot?1435407075') format('embedded-opentype'),
-    url('../assets/fonts/Roboto/RobotoSlab-Bold-webfont.woff?1435407075') format('woff'),
-    url('../assets/fonts/Roboto/RobotoSlab-Bold-webfont.ttf?1435407075') format('truetype'),
-    url('../assets/fonts/Roboto/RobotoSlab-Bold-webfont.svg?1435407075') format('svg');
+  font-family: "robotoslab-bold";
+  src: url("../assets/fonts/Roboto/RobotoSlab-Bold-webfont.eot?1435407075") format("embedded-opentype"),
+  url("../assets/fonts/Roboto/RobotoSlab-Bold-webfont.woff?1435407075") format("woff"),
+  url("../assets/fonts/Roboto/RobotoSlab-Bold-webfont.ttf?1435407075") format("truetype"),
+  url("../assets/fonts/Roboto/RobotoSlab-Bold-webfont.svg?1435407075") format("svg");
 }
 
 @import "vendors/reset.css";
-@import "vendors/simplegrid.css";
 @import "vendors/icomoon.css";
 @import "common/visibility.css";
-
-@import "layout/site-container.css";
 
 @import "blocks/header.css";
 @import "blocks/logo.css";
@@ -84,5 +81,5 @@
 
 
 body {
-    font-family: "Bazar", sans-serif;
+  font-family: "Bazar", sans-serif;
 }

@@ -1,50 +1,43 @@
 .portfolio-page {
-    background: url("../assets/images/background-3.png") repeat;
-    color: #3a3a3a;
-}
-
-.portfolio-page__header {
+  background: url("../assets/images/background-3.png") repeat;
+  color: #3a3a3a;
 }
 
 .portfolio-page__filter {
-    display: flex;
-    flex-flow: row wrap;
-
-    font-family: "robotoslab-bold", sans-serif;
+  display: flex;
+  flex-flow: row wrap;
+  font-family: "robotoslab-bold", sans-serif;
 }
 
 .portfolio-page__filter-title {
-    margin-right: 25px;
-    line-height: initial;
-
-    font-family: "robotoslab-regular", sans-serif;
+  font-family: "robotoslab-regular", sans-serif;
+  line-height: initial;
+  margin-right: 25px;
 }
 
 .portfolio-page__filter-item {
-    margin-right: 30px;
-    margin-bottom: 10px;
-
-    font-size: 14px;
-
-    cursor: pointer;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-right: 30px;
 }
 
 .portfolio-page__articles {
-    display: flex;
-    flex-flow: row wrap;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .portfolio-page__articles-item {
-    margin-right:10px;
-    margin-bottom:10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
 }
 
 .portfolio-page__articles-item:last-child {
-    justify-self: flex-start;
+  justify-self: flex-start;
 }
 
 @media (max-width: 768px) {
-    .portfolio-page__articles {
-        justify-content: center;
-    }
+  .portfolio-page__articles {
+    justify-content: center;
+  }
 }

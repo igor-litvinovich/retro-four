@@ -22,12 +22,12 @@ var paths = {
     tmpCssVendors: 'tmp/css/',
     tmpAssets: 'tmp/assets/',
 
-    dist: 'dist',
-    distIndex: 'dist/index.html',
-    distCSS: 'dist/**/*.css',
-    distJS: 'dist/**/*.js',
-    distCssVendors: 'dist/css/',
-    distAssets: 'dist/assets/',
+    dist: 'docs',
+    distIndex: 'docs/index.html',
+    distCSS: 'docs/**/*.css',
+    distJS: 'docs/**/*.js',
+    distCssVendors: 'docs/css/',
+    distAssets: 'docs/assets/',
 
     cssVendors: 'src/css/vendors/*.css'
 };

@@ -1,96 +1,94 @@
 .page {
- padding-top: 10px;
- padding-bottom: 10px;
+  position: relative;
+  z-index: 1;
 
-    position: relative;
-    z-index: 1;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .page__wrapper {
-    text-align: center;
-    max-width: 50%;
-    margin-left: 25%;
+  margin-left: 25%;
+  max-width: 50%;
+  text-align: center;
 }
 
 .page::before {
-    content: " ";
-    border-top: 1px dashed rgba(0, 0, 0, 0.3);
-    border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
-    width: 100%;
-    display: block;
+  content: " ";
+
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
+  border-top: 1px dashed rgba(0, 0, 0, 0.3);
+  display: block;
+  width: 100%;
 }
 .page::after {
-    content: " ";
-    border-top: 1px dashed rgba(0, 0, 0, 0.3);
-    border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
-    width: 100%;
-    display: block;
-    bottom: 0;
+  content: " ";
+  bottom: 0;
+
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
+  border-top: 1px dashed rgba(0, 0, 0, 0.3);
+  display: block;
+  width: 100%;
 }
 
 .page__title {
-    text-align: center;
+  text-align: center;
 }
 
 .page__title-text {
-    text-align: center;
-
-    font-size: 90px;
-    text-transform: uppercase;
-    text-shadow: 0.2rem 0.2rem 0 #f6edd8, 0.4rem 0.4rem 0 #383a3c;
+  font-size: 90px;
+  text-align: center;
+  text-shadow: 0.2rem 0.2rem 0 #f6edd8, 0.4rem 0.4rem 0 #383a3c;
+  text-transform: uppercase;
 }
 
 .page__header {
-    margin-top: 40px;
-    margin-bottom: 40px;
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .page__header-subtitle {
-    font-family: "oswald_regularregular", serif;
-    font-weight: 100;
+  font-family: "oswald_regularregular", serif;
+  font-weight: 100;
 }
 
 .page__footer {
-    margin: 40px auto;
-    width: 100%;
-
+  margin: 40px auto;
+  width: 100%;
 }
 
 .page__separator {
-    margin: 10px auto;
+  margin: 10px auto;
 }
 
 .page__bottom {
-    text-align: center;
-    font-family: "oswald_bold", serif;
-    font-size: 14px;
-
-    font-weight: bold;
-
-    margin-bottom: 40px;
+  font-family: "oswald_bold", serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
 }
 
 
 @media (max-width: 768px) {
-    .page__wrapper {
-        max-width: 80%;
-        margin-left: 10%;
-    }
-    .page__title-text {
-        font-size: 60px;
-    }
+  .page__wrapper {
+    margin-left: 10%;
+    max-width: 80%;
+  }
+  .page__title-text {
+    font-size: 60px;
+  }
 }
 
 @media (max-width: 480px) {
-    .page__wrapper {
-        max-width: 90%;
-        margin-left: 4%;
-    }
+  .page__wrapper {
+    margin-left: 4%;
+    max-width: 90%;
+  }
 }
 
 @media (max-width: 1600px) {
-    .page__wrapper {
-        max-width: 60%;
-        margin-left: 20%;
-    }
+  .page__wrapper {
+    margin-left: 20%;
+    max-width: 60%;
+  }
 }

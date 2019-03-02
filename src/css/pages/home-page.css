@@ -1,75 +1,74 @@
 .home-page {
-    background: url("../assets/images/background-1.png") repeat;
+  background: url("../assets/images/background-1.png") repeat;
 }
 
 .home-page__title {
-    width: 41.6%;
+  width: 41.6%;
 }
 
 .home-page__subtitle {
-    width: 40%;
-    margin: 25px auto;
-
-    text-transform: uppercase;
-    font-size: 20px;
-    color: #4b4e4c;
+  color: #4b4e4c;
+  font-size: 20px;
+  margin: 25px auto;
+  text-transform: uppercase;
+  width: 40%;
 }
 
 .home-page__subtitle-ribbon {
-    position: relative;
+  position: relative;
 }
 
-.home-page__subtitle-ribbon::before, .home-page__subtitle-ribbon::after {
-    content: "\2022 \2001 \2022 \2001 \2022 \2001 \2022 \2001";
-    position: absolute;
-    z-index: 1;
+.home-page__subtitle-ribbon::before,
+.home-page__subtitle-ribbon::after {
+  content: "\2022 \2001 \2022 \2001 \2022 \2001 \2022 \2001";
+  position: absolute;
+  z-index: 1;
 
-    color: #fff1ce;
-    text-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
+  color: #fff1ce;
+  text-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
 }
 
 .home-page__subtitle-ribbon::before {
-
-    left: -6.5em;
-    top: 1.8em;
+  top: 1.8em;
+  left: -6.5em;
 }
 
 .home-page__subtitle-ribbon::after {
-    right: -6.5em;
-    top: 1.8em;
+  top: 1.8em;
+  right: -6.5em;
 }
 
 @media (max-width: 767px) {
-    .home-page__title {
-        width: 60%;
-    }
+  .home-page__title {
+    width: 60%;
+  }
 
-    .home-page__subtitle {
-        width: 90%;
-        font-size: 14px;
-    }
+  .home-page__subtitle {
+    font-size: 14px;
+    width: 90%;
+  }
 
 
-    .home-page__subtitle-ribbon::before, .home-page__subtitle-ribbon::after {
-        display: none;
-    }
+  .home-page__subtitle-ribbon::before,
+  .home-page__subtitle-ribbon::after {
+    display: none;
+  }
 }
 
 
 @media (min-width: 1200px) {
-    .home-page__subtitle {
-        width: 40%;
-    }
+  .home-page__subtitle {
+    width: 40%;
+  }
 }
 
 .home-page__greeting {
-    color: #f7ebd8;
-    font-size: 30px;
-    margin: 35px 0;
+  color: #f7ebd8;
+  font-size: 30px;
+  margin: 35px 0;
 }
 
 .home-page__greeting--small {
-    font-size: 25px;
-
-    margin-top: 10px;
+  font-size: 25px;
+  margin-top: 10px;
 }

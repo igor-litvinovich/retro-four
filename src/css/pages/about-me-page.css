@@ -1,43 +1,41 @@
 .about-me-page {
-    background: url("../assets/images/background-2.png") repeat;
-
+  background: url("../assets/images/background-2.png") repeat;
 }
 
 .about-me-page__header {
-    color: #3a3a3a;
+  color: #3a3a3a;
 }
 
 .about-me-page__content {
-    display: grid;
-    column-gap: 40px;
-    grid-template-columns: auto auto auto auto;
-
-    margin-bottom: 50px;
+  column-gap: 40px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-bottom: 50px;
 }
 
 .about-me-page__article {
-    flex: 2;
+  flex: 2;
 }
 
 .about-me-page__article-icon {
-    color: white;
+  color: white;
 }
 
 
 @media (max-width: 1200px) {
-    .about-me-page__content {
-        grid-template-columns: auto auto auto;
-    }
+  .about-me-page__content {
+    grid-template-columns: auto auto auto;
+  }
 }
 
 @media (max-width: 768px) {
-    .about-me-page__content {
-        grid-template-columns: auto auto;
-    }
+  .about-me-page__content {
+    grid-template-columns: auto auto;
+  }
 }
 
 @media (max-width: 480px) {
-    .about-me-page__content {
-        grid-template-columns: auto;
-    }
+  .about-me-page__content {
+    grid-template-columns: auto;
+  }
 }

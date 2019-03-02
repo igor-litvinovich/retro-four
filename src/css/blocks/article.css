@@ -1,37 +1,39 @@
 .article {
-    position: relative;
-    color: #383a3c;
+  position: relative;
+
+  color: #383a3c;
 }
 
 .article__header {
-    padding: 10px;
-    margin-bottom: 30px;
+  margin-bottom: 30px;
+  padding: 10px;
 }
 .article__header::after {
-    content: '';
-    background-color: #383a3c;
-    height: 3px;
-    width: 66px;
-    margin-top: 15px;
-    position: absolute;
-    right: calc(50% - 33px);
+  content: "";
+  position: absolute;
+  right: calc(50% - 33px);
+
+  background-color: #383a3c;
+  height: 3px;
+  margin-top: 15px;
+  width: 66px;
 }
 .article__title {
-    margin-top: 30px;
-    font-size: 30px;
+  font-size: 30px;
+  margin-top: 30px;
 }
 
 .article__content {
-    font-family: "robotoslab-regular", sans-serif;
-    text-align: left;
+  font-family: "robotoslab-regular", sans-serif;
+  text-align: left;
 }
 
 .article__subtitle {
-    font-family: "robotoslab-regular", sans-serif;
-    margin-top: 15px;
+  font-family: "robotoslab-regular", sans-serif;
+  margin-top: 15px;
 }
 
 .article__bold-text {
-    font-weight: bold;
+  font-weight: bold;
 }
 

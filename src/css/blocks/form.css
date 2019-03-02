@@ -1,36 +1,35 @@
 .form {
-    display: flex;
-    flex-flow: column nowrap;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 .form__field {
-    margin-top: 10px;
-    font-size: 16px;
-    line-height: 2;
-    border-radius: 3px;
-    border: none;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 2;
+  margin-top: 10px;
 }
 .form__field::placeholder {
-    color: #a9a9a9;
-    text-indent: 10px;
-
-    font-family: "robotoslab-regular", sans-serif;
+  color: #a9a9a9;
+  font-family: "robotoslab-regular", sans-serif;
+  text-indent: 10px;
 }
 
-.form__field:focus, .form__field:focus{
-    outline: none;
+.form__field:focus,
+.form__field:focus {
+  outline: none;
 }
 
 .form__field--submit {
-    font-family: "robotoslab-bold" , sans-serif;
-    cursor: pointer;
-    background-color: #fcfaf7;
-    color: #383a3c;
-
-    width: 141px;
-    height: 36px;
+  background-color: #fcfaf7;
+  color: #383a3c;
+  cursor: pointer;
+  font-family: "robotoslab-bold" , sans-serif;
+  height: 36px;
+  width: 141px;
 }
 
 .form__field--text-area {
-    resize: none;
+  resize: none;
 }

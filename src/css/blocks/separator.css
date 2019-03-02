@@ -1,31 +1,33 @@
 
 .separator {
-    font-size: 26px;
-    position: relative;
+  position: relative;
+
+  font-size: 26px;
 }
 
-.separator:before, .separator:after {
-    content: '';
-    background-color: #383a3c;
-    height: 3px;
-    width: 65px;
-    position: absolute;
-    top: 50%;
+.separator:before,
+.separator:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+
+  background-color: #383a3c;
+  height: 3px;
+  width: 65px;
 }
 .separator:before {
-    left: -80px;
+  left: -80px;
 }
 .separator:after {
-    right: -80px;
+  right: -80px;
 }
 
-.separator--single {
-}
+
 
 .separator--single:before {
-    display: none;
+  display: none;
 }
 
 .separator--single:after {
-    left: calc(50% - 32px);
+  left: calc(50% - 32px);
 }
