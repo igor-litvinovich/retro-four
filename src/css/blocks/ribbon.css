@@ -46,6 +46,9 @@
   width: 100%;
 }
 
+.ribbon__content {
+  cursor: default;
+}
 
 .ribbon__content::before,
 .ribbon__content::after {

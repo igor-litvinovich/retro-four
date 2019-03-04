@@ -9,7 +9,7 @@
 .home-page__subtitle {
   color: #4b4e4c;
   font-size: 20px;
-  margin: 25px auto;
+  margin: 0 auto;
   text-transform: uppercase;
   width: 40%;
 }
@@ -29,12 +29,12 @@
 }
 
 .home-page__subtitle-ribbon::before {
-  top: 1.8em;
+  top: 1.3em;
   left: -6.5em;
 }
 
 .home-page__subtitle-ribbon::after {
-  top: 1.8em;
+  top: 1.3em;
   right: -6.5em;
 }
 
@@ -66,6 +66,8 @@
   color: #f7ebd8;
   font-size: 30px;
   margin: 35px 0;
+
+  cursor: default;
 }
 
 .home-page__greeting--small {

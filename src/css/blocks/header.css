@@ -23,7 +23,7 @@
 
   color: #f9ebd9;
   font-size: 30px;
-  margin-left: 25%;
+  margin: 0 auto;
   min-height: 50px;
   overflow: visible;
   text-align: center;
@@ -87,7 +87,6 @@
 
 @media (max-width: 1200px) {
   .header__navigation {
-    margin-left: 10%;
     width: 80%;
   }
 }

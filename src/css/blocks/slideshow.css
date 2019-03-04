@@ -29,6 +29,8 @@
   margin-top: 10px;
   text-align: center;
   width: 100%;
+
+  cursor: default;
 }
 
 .slider__prev,

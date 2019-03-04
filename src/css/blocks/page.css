@@ -7,9 +7,9 @@
 }
 
 .page__wrapper {
-  margin-left: 25%;
   max-width: 50%;
   text-align: center;
+  margin: 0 auto;
 }
 
 .page::before {
@@ -31,14 +31,12 @@
 }
 
 .page__title {
-  text-align: center;
-}
+    font-size: 90px;
+    text-align: center;
+    text-shadow: 0.2rem 0.2rem 0 #f6edd8, 0.4rem 0.4rem 0 #383a3c;
+    text-transform: uppercase;
 
-.page__title-text {
-  font-size: 90px;
-  text-align: center;
-  text-shadow: 0.2rem 0.2rem 0 #f6edd8, 0.4rem 0.4rem 0 #383a3c;
-  text-transform: uppercase;
+    cursor: default;
 }
 
 .page__header {
@@ -66,19 +64,19 @@
   font-weight: bold;
   margin-bottom: 40px;
   text-align: center;
+
+  cursor: default;
 }
 
 
 @media (max-width: 1600px) {
   .page__wrapper {
-    margin-left: 20%;
     max-width: 60%;
   }
 }
 
 @media (max-width: 768px) {
   .page__wrapper {
-    margin-left: 10%;
     max-width: 80%;
   }
   .page__title-text {
@@ -88,7 +86,6 @@
 
 @media (max-width: 480px) {
   .page__wrapper {
-    margin-left: 4%;
     max-width: 90%;
   }
 }

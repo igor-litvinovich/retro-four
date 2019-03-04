@@ -11,8 +11,10 @@
 
 .portfolio-page__filter-title {
   font-family: "robotoslab-regular", sans-serif;
-  line-height: initial;
+  line-height: 1.7;
   margin-right: 25px;
+
+  cursor: default;
 }
 
 .portfolio-page__filter-item {
@@ -36,7 +38,7 @@
   justify-self: flex-start;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1600px) {
   .portfolio-page__articles {
     justify-content: center;
   }
