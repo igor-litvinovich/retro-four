@@ -1,0 +1,43 @@
+.portfolio-record {
+  background-color: #fbfaf6;
+  height: 221px;
+  padding: 4px;
+  width: 218px;
+}
+
+.portfolio-record__image {
+  position: relative;
+
+  background-color: #e3dfd7;
+  height: 159px;
+  width: 100%;
+}
+
+.portfolio-record__image::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 88px;
+
+  background-color: #fbfaf6;
+  border-top-left-radius: 88px;
+  border-top-right-radius: 88px;
+  height: 21px;
+  width: 44px;
+}
+
+.portfolio-record__icon {
+  position: relative;
+
+  font-size: 24px;
+  margin-top: -10px;
+  text-align: center;
+  width: 100%;
+}
+
+.portfolio-record__title {
+  font-family: "robotoslab-bold", sans-serif;
+  font-size: 12px;
+  line-height: 3;
+  text-align: center;
+}

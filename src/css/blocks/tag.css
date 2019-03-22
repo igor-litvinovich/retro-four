@@ -1,0 +1,33 @@
+.tag {
+  position: relative;
+
+  background-color: #fbfaf6;
+  border-radius: 0 5px 5px 0;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+  text-align: center;
+  width: max-content;
+}
+
+.tag::before {
+  content: "";
+  position: absolute;
+  right: 100%;
+
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid #fbfaf6;
+  border-top: 15px solid transparent;
+  height: 0;
+  width: 0;
+}
+
+.tag::after {
+  content: "\2022";
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  color: #959ca3;
+}

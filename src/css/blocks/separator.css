@@ -1,0 +1,33 @@
+
+.separator {
+  position: relative;
+
+  font-size: 26px;
+}
+
+.separator:before,
+.separator:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+
+  background-color: #383a3c;
+  height: 3px;
+  width: 65px;
+}
+.separator:before {
+  left: -80px;
+}
+.separator:after {
+  right: -80px;
+}
+
+
+
+.separator--single:before {
+  display: none;
+}
+
+.separator--single:after {
+  left: calc(50% - 32px);
+}

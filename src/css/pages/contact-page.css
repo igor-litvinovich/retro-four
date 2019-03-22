@@ -1,0 +1,70 @@
+.contact-page {
+  background: url("../assets/images/background-5.png") repeat;
+  color: #3a3a3a;
+}
+
+.contact-page__title {
+  color: #f6edd8;
+  text-shadow: 0.2rem 0.2rem 0 #383a3c, 0.4rem 0.4rem 0 #f6edd8;
+}
+
+.contact-page__form {
+  margin: 0 auto;
+  max-width: 480px;
+}
+
+
+.contact-page__content {
+  margin: auto;
+  width: 100%;
+}
+
+.contact-page__separator {
+  color: #f6edd8;
+}
+
+.contact-page__separator::before {
+  background-color: #f6edd8;
+}
+
+.contact-page__separator::after {
+  background-color: #f6edd8;
+}
+
+.contact-page__header-subtitle {
+  color: #f6edd8;
+}
+
+.contact-page__bottom {
+  color: #f6edd8;
+  font-family: "Bazar", sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  margin-bottom: 5px;
+}
+
+.contact-page__bottom-separator {
+  border-bottom: 2px solid #f6edd8;
+}
+
+.contact-page__social-networks {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.contact-page__social-network-circle {
+  background-color: #f5eee3;
+  border: 2px solid #383a3c;
+  box-shadow: 0 0 0 2px #f5eee3;
+  height: 75px;
+  margin-left: 10px;
+  width: 75px;
+}
+
+.contact-page__social-networks-item {
+  font-size: 42px;
+
+  cursor: pointer;
+}

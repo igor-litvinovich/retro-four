@@ -1,0 +1,86 @@
+.ribbon {
+  position: relative;
+
+  background: rgb(255, 241, 206);
+  line-height: 1.8;
+  text-align: center;;
+}
+
+.ribbon::before,
+.ribbon::after {
+  content: "";
+  position: absolute;
+  bottom: -1em;
+  z-index: -1;
+
+  border: 1.5em solid rgb(255, 241, 206);
+  display: block;;
+}
+
+.ribbon::before {
+  left: -2em;
+
+  border-left-color: transparent;
+  border-right-width: 1.5em;
+}
+
+.ribbon::after {
+  right: -2em;
+
+  border-left-width: 1.5em;
+  border-right-color: transparent;
+}
+
+.ribbon__wrapper {
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+
+.ribbon__wrapper::before,
+.ribbon__wrapper::after {
+  content: " ";
+
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
+  border-top: 1px dashed rgba(0, 0, 0, 0.3);
+  display: block;
+  width: 100%;
+}
+
+.ribbon__content {
+  cursor: default;
+}
+
+.ribbon__content::before,
+.ribbon__content::after {
+  content: "";
+  position: absolute;
+  bottom: -1em;
+
+  border-color: rgb(132, 144, 146) transparent transparent transparent;
+  border-style: solid;
+  display: block;
+}
+
+.ribbon__content::before {
+  left: 0;
+
+  border-width: 1em 0 0 1em;
+}
+
+.ribbon__content::after {
+  right: 0;
+
+  border-width: 1em 1em 0 0;
+}
+
+@media (max-width: 480px) {
+  .ribbon::before,
+  .ribbon::after {
+    display: none;
+  }
+
+  .ribbon__content::before,
+  .ribbon__content::after {
+    display: none;
+  }
+}

@@ -1,0 +1,76 @@
+.home-page {
+  background: url("../assets/images/background-1.png") repeat;
+}
+
+.home-page__title {
+  width: 41.6%;
+}
+
+.home-page__subtitle {
+  color: #4b4e4c;
+  font-size: 20px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  width: 40%;
+}
+
+.home-page__subtitle-ribbon {
+  position: relative;
+}
+
+.home-page__subtitle-ribbon::before,
+.home-page__subtitle-ribbon::after {
+  content: "\2022 \2001 \2022 \2001 \2022 \2001 \2022 \2001";
+  position: absolute;
+  z-index: 1;
+
+  color: #fff1ce;
+  text-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
+}
+
+.home-page__subtitle-ribbon::before {
+  top: 1.3em;
+  left: -6.5em;
+}
+
+.home-page__subtitle-ribbon::after {
+  top: 1.3em;
+  right: -6.5em;
+}
+
+@media (max-width: 767px) {
+  .home-page__title {
+    width: 60%;
+  }
+
+  .home-page__subtitle {
+    font-size: 14px;
+    width: 90%;
+  }
+
+
+  .home-page__subtitle-ribbon::before,
+  .home-page__subtitle-ribbon::after {
+    display: none;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .home-page__subtitle {
+    width: 40%;
+  }
+}
+
+.home-page__greeting {
+  color: #f7ebd8;
+  font-size: 30px;
+  margin: 35px 0;
+
+  cursor: default;
+}
+
+.home-page__greeting--small {
+  font-size: 25px;
+  margin-top: 10px;
+}

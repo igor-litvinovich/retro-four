@@ -1,0 +1,76 @@
+.site {
+  max-width: 500px;
+}
+
+.slider {
+  position: relative;
+
+  border-radius: 3px;
+  overflow: hidden;
+}
+.slider__wrapper {
+  background-color: #fbfaf6;
+  border: 10px solid;
+  border-color: #fbfaf6;
+}
+
+.slider__image {
+  max-width: 100%;
+}
+
+
+
+.slider__item-description {
+  background-color: #fbfaf6;
+  display: block;
+  font-family: "Bazar", sans-serif;
+  font-size: 20px;
+  height: 100%;
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+
+  cursor: default;
+}
+
+.slider__prev,
+.slider__next {
+  position: absolute;
+  top: 50%;
+
+  align-items: center;
+  background-color: #fbfaf6;
+  cursor: pointer;
+  display: flex;
+  height: 45px;
+  justify-content: center;
+  margin-top: -1.95em;
+  width: 45px;
+}
+
+.slider__prev {
+  left: -15px;
+
+  border-bottom-right-radius: 90px;
+  border-top-right-radius: 90px;
+}
+
+.slider__next {
+  right: -15px;
+
+  border-bottom-left-radius: 90px;
+  border-top-left-radius: 90px;
+}
+
+.slider__left-arrow {
+  margin-left: 15px;
+}
+
+.slider__right-arrow {
+  margin-right: 15px;
+}
+
+.slider__prev--disabled,
+.slider__next--disabled {
+  color: #79756e;
+}

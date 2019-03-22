@@ -1,0 +1,91 @@
+.page {
+  position: relative;
+  z-index: 1;
+
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.page__wrapper {
+  max-width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.page::before {
+  content: " ";
+
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
+  border-top: 1px dashed rgba(0, 0, 0, 0.3);
+  display: block;
+  width: 100%;
+}
+.page::after {
+  content: " ";
+  bottom: 0;
+
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
+  border-top: 1px dashed rgba(0, 0, 0, 0.3);
+  display: block;
+  width: 100%;
+}
+
+.page__title {
+    font-size: 90px;
+    text-align: center;
+    text-shadow: 0.2rem 0.2rem 0 #f6edd8, 0.4rem 0.4rem 0 #383a3c;
+    text-transform: uppercase;
+
+    cursor: default;
+}
+
+.page__header {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.page__header-subtitle {
+  font-family: "oswald_regularregular", serif;
+  font-weight: 100;
+}
+
+.page__footer {
+  margin: 40px auto;
+  width: 100%;
+}
+
+.page__separator {
+  margin: 10px auto;
+}
+
+.page__bottom {
+  font-family: "oswald_bold", serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+
+  cursor: default;
+}
+
+
+@media (max-width: 1600px) {
+  .page__wrapper {
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .page__wrapper {
+    max-width: 80%;
+  }
+  .page__title {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .page__wrapper {
+    max-width: 90%;
+  }
+}

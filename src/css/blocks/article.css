@@ -1,0 +1,39 @@
+.article {
+  position: relative;
+
+  color: #383a3c;
+}
+
+.article__header {
+  margin-bottom: 30px;
+  padding: 10px;
+}
+.article__header::after {
+  content: "";
+  position: absolute;
+  right: calc(50% - 33px);
+
+  background-color: #383a3c;
+  height: 3px;
+  margin-top: 15px;
+  width: 66px;
+}
+.article__title {
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.article__content {
+  font-family: "robotoslab-regular", sans-serif;
+  text-align: left;
+}
+
+.article__subtitle {
+  font-family: "robotoslab-regular", sans-serif;
+  margin-top: 15px;
+}
+
+.article__bold-text {
+  font-weight: bold;
+}
+
